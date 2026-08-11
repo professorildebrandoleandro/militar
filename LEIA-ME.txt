@@ -1,0 +1,21 @@
+FAVICON CORRIGIDO
+
+O problema estava no index.html: os links do favicon não estavam presentes no <head>.
+Nesta versão foram adicionados:
+- favicon.ico
+- favicon-32x32.png
+- favicon-16x16.png
+- apple-touch-icon.png
+
+Todos ficam na mesma pasta do index.html.
+
+IMPORTANTE:
+O Chrome exibe o favicon da aba em cerca de 16x16 pixels. O arquivo pode ser maior, mas a área visual da aba não aumenta.
+O ícone fornecido foi mantido com o monograma IL para ocupar melhor esse espaço.
+
+Para testar:
+1. Copie estes arquivos para a MESMA pasta do seu site.
+2. Abra o index.html dessa pasta.
+3. Feche todas as abas antigas desse arquivo.
+4. Abra novamente.
+5. Pressione Ctrl + F5.
